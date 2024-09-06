@@ -21,7 +21,7 @@ public class SimCardQueryController {
 
   @GetMapping(value = "/query-sim", produces = MediaType.APPLICATION_JSON_VALUE)
   @ResponseBody
-  public SimCardQueryResponse handleSimCardQuery(@RequestBody Long simCardId) {
+  public SimCardQueryResponse handleSimCardQuery(Long simCardId) {
     SimCardRecord simCardRecord = simCardRepositoryService.querySimCardRecord(simCardId);
     if (simCardRecord == null) {
       return null;
