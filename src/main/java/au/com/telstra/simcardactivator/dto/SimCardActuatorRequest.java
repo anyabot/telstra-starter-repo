@@ -1,4 +1,4 @@
-package au.com.telstra.simcardactivator.Data;
+package au.com.telstra.simcardactivator.dto;
 
 public class SimCardActuatorRequest {
   private String iccid;

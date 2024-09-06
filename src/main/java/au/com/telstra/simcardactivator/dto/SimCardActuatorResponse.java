@@ -1,4 +1,4 @@
-package au.com.telstra.simcardactivator.Data;
+package au.com.telstra.simcardactivator.dto;
 
 public class SimCardActuatorResponse {
   private Boolean success;
